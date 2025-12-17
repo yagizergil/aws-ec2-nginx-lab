@@ -38,14 +38,11 @@ fundamental cloud infrastructure concepts such as compute, networking, and secur
 sudo systemctl status nginx
 Expected output:
 
-arduino
-Kodu kopyala
+
 Active: active (running)
 Access via browser:
-
-cpp
-Kodu kopyala
 http://<EC2_PUBLIC_IP>
+
 💥 What Broke (On Purpose)
 Removing port 80 from the Security Group blocked external access
 
